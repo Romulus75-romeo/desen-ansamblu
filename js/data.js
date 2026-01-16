@@ -4,7 +4,7 @@ const subjectsData = [
         title: "Informații Curs & Planificare",
         icon: "information-circle-outline",
         content: `
-            <h2>Planificare Calendaristică</h2>
+            <h2>Platforma Educațională Modulul 1</h2>
             <div style="background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px; margin-bottom: 2rem; border-left: 4px solid var(--accent-color);">
                 <p><strong>Unitatea de învăţământ:</strong> Liceul Tehnologic „Aurel Vlaicu” Galați</p>
                 <p><strong>Profilul:</strong> Tehnic / <strong>Domeniul:</strong> Mecanică</p>
