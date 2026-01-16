@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1 - Desen de Ansamblu | Platformă Educațională</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ionicons for premium icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-icon">
+                    <ion-icon name="shapes-outline"></ion-icon>
+                </div>
+                <div>
+                    <h1>Desen<br>Ansamblu</h1>
+                    <div style="font-size: 0.75rem; color: #94a3b8; margin-top: 6px; font-weight: 500;">
+                        Realizat de<br>Prof. Ing. Popescu Romulus
+                    </div>
+                </div>
+            </div>
+
+            <nav class="nav-menu" id="subject-list">
+                <!-- Subjects will be injected here via JS -->
+            </nav>
+
+            <div class="sidebar-footer">
+                <button id="open-quiz-btn" class="btn-primary full-width">
+                    <ion-icon name="school-outline"></ion-icon>
+                    Testare Cunoștințe
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-bar">
+                <button class="menu-toggle" id="menu-toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+                <div class="breadcrumbs">
+                    <span id="current-section-title">Bun venit</span>
+                </div>
+            </header>
+
+            <div class="content-scroll-area" id="content-display">
+                <!-- Dynamic Content will appear here -->
+                <div class="welcome-screen">
+                    <div class="welcome-card">
+                        <h2>Bine ați venit la Modulul M1</h2>
+                        <p>Selectați un capitol din meniul lateral pentru a începe studiul.</p>
+                        <div class="hero-illustration">
+                            <ion-icon name="document-text-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Quiz Modal / Overlay -->
+    <div id="quiz-overlay" class="quiz-overlay hidden">
+        <div class="quiz-container">
+            <header class="quiz-header">
+                <h2>Verificare Cunoștințe</h2>
+                <div class="quiz-status">
+                    <span id="question-tracker">Întrebarea 1 / 15</span>
+                    <button class="close-quiz-btn" id="close-quiz-btn">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+                </div>
+            </header>
+
+            <div class="quiz-body" id="quiz-body">
+                <div class="question-text" id="quiz-question">
+                    Întrebarea se încarcă...
+                </div>
+                <div class="options-list" id="quiz-options">
+                    <!-- Options injected here -->
+                </div>
+            </div>
+
+            <footer class="quiz-footer">
+                <div class="score-display hidden" id="score-display">Scor: 0</div>
+                <button class="btn-secondary" id="next-question-btn">Următoarea</button>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/tests.js"></script>
+    <script src="js/questions.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
