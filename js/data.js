@@ -291,6 +291,48 @@ const subjectsData = [
                     <li><strong>Arborele:</strong> Piesa mobilă care se rotește în interiorul bucșei. Jocul dintre arbore și bucșă este esențial pentru formarea peliculei de ulei.</li>
                 </ul>
             </div>
+            <div class="content-card">
+                <h3>3. Menghina Paralelă (Mecanism Șurub-Piuliță)</h3>
+                <img src="images/draw_vise.png" alt="Desen Menghină" style="width:100%; border-radius:8px; margin: 10px 0; border: 1px solid #555;">
+                <p><strong>Analiza Desenului:</strong></p>
+                <ul>
+                    <li><strong>Corp fix și Mobil (Fălci):</strong> Transformă mișcarea de rotație în translație pentru a fixa piesa.</li>
+                    <li><strong>Șurubul de mișcare:</strong> Elementul care antrenează falca mobilă.</li>
+                    <li><strong>Ghidajele:</strong> Asigură mișcarea liniară precisă a fălcii mobile.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>4. Reductor de Turație (O treaptă)</h3>
+                <img src="images/draw_reducer.png" alt="Desen Reductor" style="width:100%; border-radius:8px; margin: 10px 0; border: 1px solid #555;">
+                <p><strong>Analiza Desenului:</strong></p>
+                <ul>
+                    <li><strong>Angrenajul Cilindric:</strong> Perechea de roți dințate care reduce turația și amplifică cuplul.</li>
+                    <li><strong>Arborii de intrare/ieșire:</strong> Susținuți pe rulmenți montați în carcasă.</li>
+                    <li><strong>Etanșarea:</strong> Capacele de rulment prevăzute cu simeringuri pentru a păstra uleiul în carcasă.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>5. Cuplaj cu Flanșe</h3>
+                <img src="images/draw_coupling.png" alt="Desen Cuplaj" style="width:100%; border-radius:8px; margin: 10px 0; border: 1px solid #555;">
+                <p><strong>Analiza Desenului:</strong></p>
+                <ul>
+                    <li><strong>Flanșele:</strong> Montate pe capetele arborilor prin pene paralele.</li>
+                    <li><strong>Șuruburile de păsuire:</strong> Asigură transmiterea momentului de torsiune și centrarea flanșelor.</li>
+                    <li><strong>Asamblarea:</strong> Este rigidă și necesită o aliniere perfectă a arborilor.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>6. Pompă cu Roți Dințate</h3>
+                <img src="images/draw_pump.png" alt="Desen Pompă" style="width:100%; border-radius:8px; margin: 10px 0; border: 1px solid #555;">
+                <p><strong>Analiza Desenului:</strong></p>
+                <ul>
+                    <li><strong>Roțile angrenate:</strong> Prin rotație, transportă fluidul din zona de aspirație în cea de refulare (spațiile dintre dinți).</li>
+                    <li><strong>Carcasa:</strong> Prelucrată cu toleranțe mici pentru a asigura etanșeitatea volumetrică.</li>
+                </ul>
+            </div>
         `
     },
     {
