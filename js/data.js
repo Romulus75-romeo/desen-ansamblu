@@ -261,6 +261,39 @@ const subjectsData = [
         `
     },
     {
+        id: "7.1",
+        title: "Exemple Vizuale: Desene de Ansamblu",
+        icon: "image-outline",
+        content: `
+            <h2>Exemple de Desene de Ansamblu Explicate</h2>
+            <p>Vom analiza două exemple clasice întâlnite frecvent în industria mecanică: Robinetul cu ventil și Lagărul cu alunecare.</p>
+
+            <div class="content-card">
+                <h3>1. Robinet cu Ventil (Sectiune)</h3>
+                <img src="images/draw_valve.png" alt="Desen Robinet cu Ventil" style="width:100%; border-radius:8px; margin: 10px 0; border: 1px solid #555;">
+                <p><strong>Analiza Desenului:</strong></p>
+                <ul>
+                    <li><strong>Corpul (1):</strong> Piesa principală care dirijează fluidul. Este reprezentată hașurat pentru a indica secțiunea.</li>
+                    <li><strong>Axul filetat (2):</strong> Elementul de manevră care ridică sau coboară ventilul. Fiind un arbore plin, <strong>NU se hașurează</strong> longitudinal.</li>
+                    <li><strong>Roata de manevră (3):</strong> Permite acționarea manuală.</li>
+                    <li><strong>Etanșarea:</strong> Se observă garniturile presate de capac pentru a preveni scurgerile de fluid pe lângă ax.</li>
+                </ul>
+            </div>
+
+            <div class="content-card">
+                <h3>2. Lagăr cu Alunecare (Sectiune Transversală)</h3>
+                <img src="images/draw_bearing.png" alt="Desen Lagăr cu Alunecare" style="width:100%; border-radius:8px; margin: 10px 0; border: 1px solid #555;">
+                <p><strong>Analiza Desenului:</strong></p>
+                <ul>
+                    <li><strong>Carcasa:</strong> Elementul fix de susținere, reprezentat cu hașuri specifice materialului (de obicei fontă).</li>
+                    <li><strong>Bucșa:</strong> Piesa din bronz sau material antifricțiune, montată în carcasă. Observați ajustajul (strângerea) dintre bucșă și carcasă.</li>
+                    <li><strong>Canalul de ungere:</strong> Orificiul prin care se introduce lubrifiantul (ulei/vaselină) pentru a reduce frecarea.</li>
+                    <li><strong>Arborele:</strong> Piesa mobilă care se rotește în interiorul bucșei. Jocul dintre arbore și bucșă este esențial pentru formarea peliculei de ulei.</li>
+                </ul>
+            </div>
+        `
+    },
+    {
         id: "8.2.0",
         title: "8.1. Desene de Construcții Metalice",
         icon: "business-outline",
